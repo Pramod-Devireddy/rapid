@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "rm -rf docs && vite build --base=/rapid && mv dist docs"
+    "build": "rm -rf docs && vite build && mv dist docs"
   },
   "dependencies": {
     "vue": "^3.0.0-rc.1"
